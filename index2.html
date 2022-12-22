@@ -11,30 +11,9 @@
       *{
         font-family: 'Jua', sans-serif;
       }
-      
-      #message{
-        background-color: rgb(103, 103, 235);
-
-          border: none;
-
-          color: white;
-
-          padding: 15px 30px;
-
-          text-align: center;
-
-          text-decoration: none;
-
-          display: inline-block;
-
-          font-size: 16px;
-
-          margin: 4px 2px;
-
-          cursor: pointer;
-          border-radius: 8px;
+      .whatto{
+        background-color: aquamarine;
       }
-
       .title {
         color: white;
         background-color: tomato;
@@ -72,31 +51,32 @@
       </style>
       <link rel="stylesheet" type="text/css" href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucket2.css">
   </head>
-  <br><br><br>
-  <body class = "bg center">
+  <body class = "bg center">   <br><br><br>
     <h1 class = "title"> 꽁정어리 생일 추카 Party 일정 </h1>
-    </style>
-    <p class = "msg"><br> 생일 추카한다롱...! </p><br>
-    <button  id = "message" onclick="toggleImg()"> 에엥...!? </button>
+    </style>   <br><br><br>
+    <p class = "msg"><br> 이렇게 놀것이다롱궈...! </p><br> 박박 두근롱샤...!
     <br>
-    <img id = "ee" src = "https://image.idus.com/image/files/04a0bb853a2e49f89c7a7005e73199ba.jpg" width = "550px">
     <br><br><br>
 
-    <a href="index2.html">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      Happy birthday~!
-      <br> 생일 일정 바로가기
-  </a>
-
-  <br><br><br>
+    <div class = "row flex-row wrap">
+      <div class = "bucket img1 center">게스트 하우스 <br> 도착 ~~ ! </div>
+      <div class = "bucket img2 center">하이디라오 <br> 훠궈 조지기 </div>
+      <div class = "bucket img1 center">공방 <br> 23일 오후 7시 홍대 </div>
+      <div class = "bucket img2 center">팝업스토어 <br> 구경가롱 ~ !</div>
+      <div class = "bucket img1 center">방탈출 <br> 얏호 </div>
+      <div class = "bucket img2 center">신림 양면소 <br> 파스타 챱챱 </div>
+      
+    </div>
+    <br><br><br>
 
     <script>
           function toggleImg() {
       document.getElementById("ee").src = "https://pbs.twimg.com/media/Ekr5hlUUYAMXC9B.jpg:small";
     }
+  
+
+    // 도장찍기
+
 
     </script>
   </body>
